@@ -1,0 +1,25 @@
+{
+    "name": "andrewbain/validator",
+    "description": "A simple php validator.",
+    "keywords": ["validator", "composer", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Bain",
+            "email": "andrew.d.bain@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4",
+        "nesbot/carbon": "~1.18"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "Andrewbain\\Validator\\": "src/"
+        }
+    }
+}
