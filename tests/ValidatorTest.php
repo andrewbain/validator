@@ -15,8 +15,7 @@ class ValidatorTest extends PHPUnit_Framework_TestCase{
   {
       parent::setUp();
       $this->validator = new Andrewbain\Validator\Validator;
-      $this->now = Carbon::now();
-      
+      $this->now = Carbon::now();   
   }
   /**
   * Just check if the Validator has no syntax errors 
